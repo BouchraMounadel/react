@@ -1,0 +1,48 @@
+#mapstore2-embedded,
+#map,
+.fill {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  margin-top: 600px; /* ajustez la marge supérieure selon vos besoins */
+}
+
+#container {
+  position: absolute;
+  top: 100px; /* hauteur du header */
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.top-bar .title {
+  width: 100%;
+  text-align: center;
+}
+
+.top-bar .title div {
+  margin: 0 auto;
+  max-width: 800px; /* ajuster la largeur au besoin */
+}
+
+.back-button {
+  /* Style du bouton de retour à l'accueil */
+  background-color: #8cb3d9;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 55px;
+}

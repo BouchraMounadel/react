@@ -1,0 +1,6 @@
+/* Ajoutez cela à votre fichier CSS global ou où vous gérez les styles */
+
+.custom-topbar {
+  background-image: none; /* Désactivez l'image de fond */
+  background-color: #0f2d5c; /* Remplacez par la couleur souhaitée */
+}

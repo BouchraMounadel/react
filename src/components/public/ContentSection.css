@@ -1,0 +1,63 @@
+/* ContentSection.css */
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header styles */
+  .container h2 {
+    margin-left: 250px;
+  }
+  #test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+  }
+  
+  /* Buttons styles */
+  .Mbouton {
+    background-color: lightblue;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+    width: 220px;
+    border-radius: 6px;
+  }
+  
+  /* Image styles */
+  #Mimage {
+    width: 100%; /* Utilisez 100% pour s'assurer que l'image est toujours à la largeur maximale de son conteneur */
+    height: auto;
+    margin-left: -24px;
+  }
+  
+  /* Text styles */
+  #Mtexte {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  /* Chart container styles */
+  #mycharts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Chart canvas styles */
+  #mycharts canvas {
+    margin-bottom: 5px;
+  }
+  
